@@ -1,0 +1,14 @@
+estimate_pose:
+    data_dir: "/media/data_cifs/MGH/videos"
+    pose_dir: "/media/data_cifs/MGH/pose_predictions"
+    data_ext: "avi"
+    resolution: "432x368"
+    model_name: "mobilenet_thin"
+    column_names: ["sub_n", "video_name", "frame_n", "nose", "r_shoulder", "r_elbow", "r_wrist", "l_shoulder", "l_elbow", "l_wrist", "quality"]
+
+draw_pose:
+    data_dir: "/media/kalpitthakkar/My\ Book1/pose_new_subjects_06132019"
+    data_ext: "avi"
+    resolution: "432x368"
+    model_name: "mobilenet_thin"
+    column_names: ["sub_n", "video_name", "frame_n", "nose", "r_shoulder", "r_elbow", "r_wrist", "l_shoulder", "l_elbow", "l_wrist", "quality"]

@@ -1,0 +1,21 @@
+joint_names: 'nose, r_shoulder, r_elbow, r_wrist, l_shoulder, l_elbow, l_wrist'
+joint_radius: 6
+multiframe: 0
+controls:
+    '=': "good"
+    '-': "bad"
+    '0': "annot"
+    'a': "prev"
+    'd': "next"
+    'w': "play"
+    's': "stop"
+    'q': "copy"
+    'o': "occluded\n"
+    'z': "save"
+    'Esc': "Save and Quit"
+    'c': "Quit without saving"
+    'x': "Show # incorrect\n"
+    'i': "Move marker up"
+    'm': "Move marker down"
+    'j': "Move marker left"
+    'l': "Move marker right"
